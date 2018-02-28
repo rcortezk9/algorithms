@@ -28,4 +28,12 @@ public class MinNumOfCoins {
         return table[V];
 
     }
+
+    public static void main(String[] args) {
+
+        int coins[] = {9, 6, 5, 1};
+        int m = coins.length;
+        int V = 11;
+        System.out.println("Minimum of coins required is " + minCoin(coins, m, V));
+    }
 }
